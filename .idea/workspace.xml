@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a3b3b3-f855-4075-a9cd-c2609b1e4fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/md_toast_component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/md_toast_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/md_toast_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/md_toast_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,37 +25,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="dart" value="16" />
+          <entry key="dart" value="18" />
           <entry key="html" value="4" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="scss" value="1" />
-          <entry key="yaml" value="3" />
+          <entry key="yaml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Dart" value="16" />
+          <entry key="Dart" value="18" />
           <entry key="HTML" value="4" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="SCSS" value="1" />
-          <entry key="YAML" value="3" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="6" />
-          <entry key="dart" value="154" />
+          <entry key="dart" value="277" />
           <entry key="html" value="8" />
-          <entry key="yaml" value="264" />
+          <entry key="yaml" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="6" />
-          <entry key="Dart" value="154" />
+          <entry key="Dart" value="277" />
           <entry key="HTML" value="8" />
-          <entry key="YAML" value="264" />
+          <entry key="YAML" value="283" />
         </counts>
       </usages-collector>
     </session>
@@ -63,12 +63,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/src/toast_example_component.dart">
+        <entry file="file://$PROJECT_DIR$/lib/md_toast_component.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="402">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,13 +89,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/md_toast.dart" />
-        <option value="$PROJECT_DIR$/lib/md_toast_component.dart" />
         <option value="$PROJECT_DIR$/example/toast_example_component.dart" />
         <option value="$PROJECT_DIR$/example/toast.dart" />
         <option value="$PROJECT_DIR$/example/index.html" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/md_toast_component.css" />
         <option value="$PROJECT_DIR$/lib/src/toast_example_component.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/md_toast_component.dart" />
       </list>
     </option>
   </component>
@@ -233,12 +233,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539200977875</updated>
       <workItem from="1539200979861" duration="31000" />
-      <workItem from="1539201042384" duration="1198000" />
+      <workItem from="1539201042384" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1229000" />
+    <option name="totallyTimeSpent" value="1908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,13 +264,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919255" />
-      <window_info anchor="bottom" id="Dart Analysis" order="7" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.32919255" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run with VisualVM" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.26811594" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -291,23 +291,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/md_toast_example.dart">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -326,6 +311,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/toast_example_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/main.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -338,20 +348,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/md_toast_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="402">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/toast_example_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,5 @@
 name: md_toast
+version: 1.0.0
 description: A Material Design Toast component for AngularDart
 author: John Ryan <john.ryan@apptreesoftware.com>
 

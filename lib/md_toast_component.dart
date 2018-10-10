@@ -46,9 +46,15 @@ class MdToast implements OnInit {
     }
   }
 
-  void showToast(String message, {ToastType type = ToastType.normal}) {
+  void showToast(String message, {ToastType type = ToastType.normal, String colorOverride}) {
     this.message = message;
-    toastDiv.style.backgroundColor = _colorForType(type);
+    var color = _colorForType(type);
+
+    if (colorOverride != null) {
+      color = colorOverride;
+    }
+
+    toastDiv.style.backgroundColor = color;
     toastDiv.classes.remove('mdt--load');
 
     _timer?.cancel();

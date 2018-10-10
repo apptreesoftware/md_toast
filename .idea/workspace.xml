@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a3b3b3-f855-4075-a9cd-c2609b1e4fea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/md_toast_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/md_toast_component.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,21 +24,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="dart" value="18" />
+          <entry key="dart" value="19" />
           <entry key="html" value="4" />
-          <entry key="md" value="2" />
+          <entry key="lock" value="3" />
+          <entry key="md" value="5" />
+          <entry key="png" value="1" />
           <entry key="scss" value="1" />
-          <entry key="yaml" value="4" />
+          <entry key="yaml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Dart" value="18" />
+          <entry key="Dart" value="19" />
           <entry key="HTML" value="4" />
-          <entry key="Markdown" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="1" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,7 +50,9 @@
           <entry key="css" value="6" />
           <entry key="dart" value="277" />
           <entry key="html" value="8" />
-          <entry key="yaml" value="283" />
+          <entry key="lock" value="13" />
+          <entry key="md" value="204" />
+          <entry key="yaml" value="376" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -55,7 +60,9 @@
           <entry key="CSS" value="6" />
           <entry key="Dart" value="277" />
           <entry key="HTML" value="8" />
-          <entry key="YAML" value="283" />
+          <entry key="Markdown" value="204" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="YAML" value="376" />
         </counts>
       </usages-collector>
     </session>
@@ -63,13 +70,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/md_toast_component.dart">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -80,6 +84,8 @@
     <findStrings>
       <find>toast.dart</find>
       <find>toast.</find>
+      <find>build_web_comp</find>
+      <find>build_runner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,8 +100,9 @@
         <option value="$PROJECT_DIR$/example/index.html" />
         <option value="$PROJECT_DIR$/lib/md_toast_component.css" />
         <option value="$PROJECT_DIR$/lib/src/toast_example_component.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/md_toast_component.dart" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
       </list>
     </option>
   </component>
@@ -128,24 +135,7 @@
             <path>
               <item name="md_toast" type="b2602c69:ProjectViewProjectNode" />
               <item name="md_toast" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="md_toast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="md_toast" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="md_toast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="md_toast" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="md_toast" type="b2602c69:ProjectViewProjectNode" />
-              <item name="md_toast" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="md_toast_component.dart" type="620a8d5e:NestingTreeNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +155,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/lib/src" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/example" />
@@ -233,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539200977875</updated>
       <workItem from="1539200979861" duration="31000" />
-      <workItem from="1539201042384" duration="1877000" />
+      <workItem from="1539201042384" duration="2245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1908000" />
+    <option name="totallyTimeSpent" value="2276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,18 +312,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+    <entry file="file://$PROJECT_DIR$/lib/md_toast_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="535">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,13 +332,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/md_toast_component.dart">
+    <entry file="file://$PROJECT_DIR$/docs/screenshot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="15" selection-start-column="15" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

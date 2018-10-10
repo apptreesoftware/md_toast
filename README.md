@@ -1,22 +1,3 @@
-A library for Dart developers.
+A Material Design Toast component for AngularDart
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:md_toast/md_toast.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+![screenshot](https://raw.githubusercontent.com/apptreesoftware/md_toast/master/docs/screenshot.png)

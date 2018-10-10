@@ -1,6 +1,6 @@
 import 'package:angular/angular.dart';
 import 'package:angular_components/angular_components.dart';
-import 'package:md_toast/md_toast_component.dart';
+import 'package:md_toast/md_toast.dart';
 
 @Component(
   selector: 'toast-example',

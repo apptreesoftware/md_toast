@@ -1,0 +1,16 @@
+name: md_toast
+description: A Material Design Toast component for AngularDart
+author: John Ryan <john.ryan@apptreesoftware.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  build_runner: any
+  build_web_compilers: any
+  angular: any
+
+dev_dependencies:
+  angular_components: any
+  test: ^1.0.0
+

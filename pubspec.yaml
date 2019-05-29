@@ -1,5 +1,5 @@
 name: md_toast
-version: 1.0.0
+version: 1.0.0+1
 description: A Material Design Toast component for AngularDart
 author: John Ryan <john.ryan@apptreesoftware.com>
 homepage: https://www.github.com/apptreesoftware/md_toast
@@ -8,11 +8,11 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
 
 dependencies:
-  build_runner: ">=0.10.3 <2.0.0"
-  build_web_compilers: ^1.2.1
   angular: ^5.0.0
 
 dev_dependencies:
   angular_components: any
+  build_runner: ">=0.10.3 <2.0.0"
+  build_web_compilers: ^1.2.1
   test: ^1.0.0
 
